@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>j0.gs - Kyle's fatness</title>
+        <meta name="description" content="See how fat Kyle is today.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+
+        <style>
+            html,
+            body {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+            }
+
+            body {
+              background-color: #999;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              font-family: 'Plaster', cursive;
+              overflow: hidden;
+            }
+
+            #weight {
+              margin: auto;
+              font-size: 200px;
+              font-size: 20vw;
+              color: rgba(0, 0, 0, 0.8);
+            }
+
+            #weight::after {
+              content: "lbs";
+              color: rgba(255, 255, 255, 0.3);
+              font-size: 0.5em;
+            }
+
+            @font-face {
+              font-family: 'Plaster';
+              font-style: normal;
+              font-weight: 400;
+              src: local('Plaster'), local('Plaster-Regular'), url(http://fonts.gstatic.com/s/plaster/v7/LNKpoz4jj8K8rmy0g0bLRw.ttf) format('truetype');
+            }
+        </style>
+        <link href='http://fonts.googleapis.com/css?family=Plaster' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <h1 id="weight">235</h1>
+    </body>
+</html>
